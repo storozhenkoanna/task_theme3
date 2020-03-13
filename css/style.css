@@ -156,6 +156,10 @@ h1 {
     width: 460px;
 }
 
+.blockThree {
+    width: 302px;
+}
+
 .blockHeader {
     font-weight: bold;
     font-size: 14px;
@@ -197,6 +201,12 @@ h1 {
 
 .posts {
     padding: 11px 11px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.other {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
