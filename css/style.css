@@ -1,0 +1,223 @@
+/* html, body {
+    height: 100%;
+} */
+
+body {
+    margin: 0;
+    background-color: #E5E5E5;  
+    color: #000000; 
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+}
+/*
+img {
+    max-width: 100%;
+    height: auto;
+  }
+*/
+
+
+.pageContainer {    
+    width: 1260px;
+    /* height: 100%; */
+    background: #FFFFFF;
+    margin: 0 auto;    
+    border-top: 5px solid #9B51E0; 
+}
+
+.pageContainerInner {
+    width: 962px;
+    margin: 0 auto;
+}
+
+.pageHeader {    
+    padding-top: 25px;
+}
+
+.logoSquare {
+    width: 50px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 3px solid #FFC740;
+    box-sizing: border-box;
+}
+
+.logoText {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.searchInput {  
+    width: 159px;
+    /*
+    border-radius: 0px;
+    
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #6D3D99;
+    box-sizing: border-box;
+    */
+}
+
+.searchBtn {    
+    width: 42px;
+    height: 31px;
+    background: #9B51E0;
+    border: none;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.headerMain {
+    height: 332px;
+    background: url(../img/design/Mountains-and-hills-julian-alps.jpg);
+    background-size: cover;
+    /* padding-left: 42px;
+    padding-top: 15px;
+    padding-right: 411px; */
+    padding: 15px 411px 15px 42px;
+}
+
+h1 {   
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFC740;
+    margin: 0px;
+}
+
+.headerMainText {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.refBtn {
+    display: block;
+    width: 125px;
+    height: 34px;
+    background: #6D3D99;
+
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.mainMenu {
+    padding: 16px 0;
+}
+
+.mainMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainMenuItem {
+    display: inline-block;    
+    width: 123px;
+    height: 47px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.mainMenuItemActive {
+    background: #FFC740;    
+}
+
+.mainMenu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    font-size: 14px;
+    line-height: 47px;
+    color: #050505;
+}
+
+.mainMenuItemActive a {   
+    font-weight: bold;
+    color: #FFFFFF;       
+}
+
+.block {
+    width: 460px;
+}
+
+.blockHeader {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 16px;
+    background: #9B51E0;
+    padding-left: 16px;
+}
+
+.blockHeaderLight {
+    background: #FFC740;    
+}
+
+.blockTitle {
+    width: fit-content;
+    padding: 0px 5px;
+    margin: 0;
+    background-color: #FFFFFF; 
+}
+
+.blockContent {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 15px 0;
+}
+
+.blockImg {    
+    width: 141px;
+    height: 141px;
+    background: #C4C4C4;
+    border: 3px solid #CC8414;
+    margin-right: 20px;
+    /* box-sizing: border-box; */
+}
+
+.blockLink {
+    color: #000000;
+}
+
+.posts {
+    padding: 11px 11px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.clients {
+    padding: 11px 11px;
+}
+
+.clients div {
+    padding: 0 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pageFooter {
+    height: 115px;
+    background: #6D3D99;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;  
+    line-height: 115px;
+}
