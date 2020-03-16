@@ -4,22 +4,21 @@
     <head>
         <meta charset="utf-8">               
         <title>Theme 3 Task 1</title>
-        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="pageContainer">
             <div class="pageContainerInner">
                 <header class="pageHeader">
-                    <div class="logo">
-                        <div class="logoSquare"></div>
-                        <span class="logoText">Super logo</span>
-                    </div>
-                    <div class="search">
-                        <form action="">
-                            <input class="searchInput" type="search" name="search">
-                            <input class="searchBtn" type="submit" value="Go">                        
-                        </form>                    
+                    <div class="pageHeaderTop flexWrapSpaceBetweenContainer">
+                        <div class="logo">Super logo</div>
+                        <div class="search">
+                            <form action="">
+                                <input class="searchInput" type="search" name="search">
+                                <input class="searchBtn" type="submit" value="Go">                        
+                            </form>                    
+                        </div>
                     </div>
                     
                     <nav class="mainMenu">
@@ -67,7 +66,7 @@
                 </header>
     
                 <main>
-                    <section class="posts">                       
+                    <section class="posts flexWrapSpaceBetweenContainer">                       
                         <div class="block">
                             <div class="blockHeader">
                                 <h2 class="blockTitle">About super logo</h2>
@@ -155,7 +154,7 @@
 
                     </section>
         
-                    <section class="other">
+                    <section class="other flexWrapSpaceBetweenContainer">
                         <div class="block blockThree">
                             <div class="blockHeader blockHeaderLight">
                                 <h2 class="blockTitle">Services</h2>
@@ -178,17 +177,43 @@
                             <div class="blockHeader">
                                 <h2 class="blockTitle">Resent posts</h2>
                             </div>
-                            <div class="blockContent">                                
-                                <div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi 
-                                        nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis 
-                                        sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, 
-                                        tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. 
-                                        Praesent placerat, diam non sollicitudin suscipit, eros erat
-                                    </p>
-                                    <a class="blockLink" href="#">Read more...</a>
+                            <div>                                
+                                <div class="blockContent">
+                                    <div>
+                                        <img src="img/posts_mini/download-1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <span>Lorem ipsum</span>
+                                        <p>
+                                            Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor.
+                                        </p>
+                                    </div>
                                 </div>
+
+                                <div class="blockContent">
+                                    <div>
+                                        <img src="img/posts_mini/download-2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <span>Lorem ipsum</span>
+                                        <p>
+                                            Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="blockContent">
+                                    <div>
+                                        <img src="img/posts_mini/download-3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <span>Lorem ipsum</span>
+                                        <p>
+                                            Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor.
+                                        </p>
+                                    </div>
+                                </div>                                
+                                
                             </div>                            
                         </div>
 
@@ -216,7 +241,7 @@
                             <h2 class="blockTitle">Clients</h2>
                         </div>                        
 
-                        <div>
+                        <div class="clientsContent flexSpaceAroundContainer">
                             <a href="#">
                                 <img src="img/clients/download-1.png" alt="">
                             </a>
